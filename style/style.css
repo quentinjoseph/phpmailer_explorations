@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Marvin;
+  src: url(../fonts/MarvinVisions-Bold.woff); }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-image: url("../img/oldComputer.jpg");
+  background-size: cover; }
+
+h1, h2, h3, p {
+  margin: 0; }
+
+.title {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 10%; }
+  .title h1 {
+    color: orange;
+    font-family: Marvin;
+    font-size: 4rem; }
+
+.the-form {
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .the-form button {
+    display: block;
+    margin: 0 auto; }
+
+.inputs {
+  text-align: center; }
+  .inputs label, .inputs input {
+    display: block;
+    margin: 0 auto; }
